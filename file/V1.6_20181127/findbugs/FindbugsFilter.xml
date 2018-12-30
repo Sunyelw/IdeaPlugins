@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FindBugsFilter>
+  <Match>
+    <Package name="~.*\.test\.*"/>
+  </Match>
+
+  <Match>
+    <Package name="~.*\.Test\.*"/>
+  </Match>
+
+  <Match>
+    <Class name="~.*\.*Test"/>
+  </Match>
+
+  <Match>
+    <Package name="~.*\.R\.*"/>
+  </Match>
+
+  <Match>
+    <Class name="~.*\.*R"/>
+  </Match>
+
+   <Match>
+    <Class name="~.*\.*BuildConfig"/>
+  </Match>
+
+  <Match>
+    <Class name="~.*\.*BuildConfig\.*"/>
+  </Match>
+
+  <Match>
+    <Class name="~.*\.*gen\.*"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="EI_EXPOSE_REP"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="EI_EXPOSE_REP2"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="UUF_UNUSED_FIELD"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_CLASS_NAMING_CONVENTION"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_FIELD_NAMING_CONVENTION"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_FUTURE_KEYWORD_USED_AS_IDENTIFIER"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_FUTURE_KEYWORD_USED_AS_MEMBER_IDENTIFIER"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_METHOD_NAMING_CONVENTION"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="OS_OPEN_STREAM"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_BAD_EQUAL"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_LCASE_HASHCODE"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="NM_LCASE_TOSTRING"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="RU_INVOKE_RUN"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="URF_UNREAD_FIELD"/>
+  </Match>
+
+  <Match>
+    <Bug pattern="UUF_UNUSED_FIELD"/>
+  </Match>
+
+  <Match>
+    <Bug category="MALICIOUS_CODE" />
+  </Match>
+
+   <Match>
+    <Bug pattern="UWF_UNWRITTEN_FIELD" />
+  </Match>
+
+  <Match>
+    <Bug pattern="RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE" />
+  </Match>
+
+  <Match>
+    <Bug pattern="DM_DEFAULT_ENCODING" />
+  </Match>
+
+  <Match>
+    <Bug pattern="DC_DOUBLECHECK" />
+  </Match>
+
+  <Match>
+    <Bug pattern="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" />
+  </Match>
+
+</FindBugsFilter>
